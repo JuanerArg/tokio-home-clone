@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1021px;
+}
+    .high-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 3vh;
+        margin-bottom: 10vh;
+    }
+
+        .high-header__img--main-logo  {
+            width: auto;
+            height: auto;
+            max-width: 40%;
+            max-height: 80px;
+        }
+
+        .high-header__img--search-logo{
+            width: 2w;
+            height: 4vh;
+        }
+
+        .high-header__div{
+            display: flex;
+            justify-content: space-between;
+            width: 5vw;
+        }
+
+            .high-header__div img{
+                width: 2vw;
+                height: 4vh;
+            }
+
+
+    .low-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-bottom: 7vh;
+    }
+
+    .welcome-sec{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+        .welcome-sec__welcome-logo{
+            width: 50vw;
+            height: 25vh;
+        }
+
+        .welcome-sec__welcoming{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 40vw;
+            margin-left: 10vh;
+        }
+            .welcome-sec__welcoming h3{
+                margin-bottom: 1vh;
+            }
+
+            .welcome-sec__welcoming p{
+                font-size: 14px;
+                text-align: center;
+            }
